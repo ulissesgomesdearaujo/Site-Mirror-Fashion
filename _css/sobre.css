@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+figure{
+    background-color: #F2EDED;
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 15px;
+    margin: 30px;
+    border-radius: 5px;
+}
+figcaption{
+    font-style:italic;
+    margin-top: 10px;
+}
+#centro-distribuidora{
+    width: 550px;
+    margin: 0px auto;
+}
+#familia-pelho{
+    float: right;
+    margin: 0 0 10px 10px;
+}
+#historia>h2, #diferenciais>h2, #mirror>h1 {
+    font-size: 16pt;
+    border-radius: 05px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #F2EDED;
+    border: 1px solid #ccc;
+}
+#mirror{
+    margin-top: 20px;
+}
+section p, ul#diferenca{
+    line-height: 1.5em;
+    text-indent: 50px;
+}
+
+section p::first-letter{
+    font-weight: bold;
+}
+h1 + p{
+    text-indent: 0;
+}
+section :not(p) + p::first-line {
+    font-variant: small-caps;
+    }
